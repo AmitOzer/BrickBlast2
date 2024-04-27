@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/mainbackgound"
+    tools:context=".Levels">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Level Menu"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btn_level1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Level 1"
+        android:onClick="startLevel1"
+        android:layout_margin="16dp"
+        android:background="#FF0000"/> <!-- Set background color to red -->
+
+    <Button
+        android:id="@+id/btn_level2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Level 2"
+        android:onClick="startLevel2"
+        android:layout_margin="16dp"
+        android:background="#FF0000"/> <!-- Set background color to red -->
+
+    <Button
+        android:id="@+id/btn_level3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Level 3"
+        android:onClick="startLevel3"
+        android:layout_margin="16dp"
+        android:background="#FF0000"/> <!-- Set background color to red -->
+
+    <Button
+        android:id="@+id/btn_main_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Main Menu"
+        android:onClick="goToMainMenu"
+        android:layout_margin="16dp"
+        android:layout_marginTop="500dp"/>
+
+</LinearLayout>
